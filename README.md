@@ -28,7 +28,7 @@ import pvrtc_decoder
 #needs to be imported once in the active code, so that the codec can register itself
 
 raw_pvrtc_image_data : bytes
-do2bit_mode = 0 # depending on the ETC mode
+do2bit_mode = 0 # see above
 img = Image.frombytes('RGBA', size, raw_pvrtc_image_data, 'pvrtc', (do2bit_mode))
 ```
 

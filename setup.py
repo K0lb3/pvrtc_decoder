@@ -11,7 +11,7 @@ except ImportError:
 extensions = [
 	Extension(
 		name="pvrtc_decoder",
-		version="1.0",
+		version="1.0.2",
 		author="K0lb3",
 		author_email="",
 		description="A PVRTC decoder for PIL",
