@@ -1,0 +1,3 @@
+include libs/*.h
+include libs/*.cpp
+include *.pyx

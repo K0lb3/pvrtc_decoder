@@ -1,0 +1,7 @@
+.git/*
+.idea/*
+build/*
+dist/*
+pvrtc_decoder.cpp
+pvrtc_decoder.egg-info
+pvrtc_decoder.cp37-*.pyd
